@@ -1,0 +1,422 @@
+{
+  "id": "easi",
+  "at": "2026-10-05T17:29:19.054Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/easi/calculator.js",
+    "bytes": 8306,
+    "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
+  },
+  "cases": [
+    {
+      "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+      "input": {
+        "idade": "8",
+        "e_h": "2",
+        "p_h": "1",
+        "x_h": "1",
+        "l_h": "0",
+        "a_h": "2",
+        "e_s": "2",
+        "p_s": "2",
+        "x_s": "1",
+        "l_s": "1",
+        "a_s": "3",
+        "e_t": "1",
+        "p_t": "1",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "2",
+        "e_i": "2",
+        "p_i": "2",
+        "x_i": "2",
+        "l_i": "1",
+        "a_i": "3"
+      },
+      "obtained": {
+        "id": "easi",
+        "main": [
+          "14,0",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 14
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.easi",
+          "expected": 14,
+          "obtained": 14,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.easi",
+          "expected": 14,
+          "obtained": 14,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "14,0",
+          "obtained": "14,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "de 72",
+          "obtained": "de 72",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+      "input": {
+        "idade": "0",
+        "e_h": "2",
+        "p_h": "1",
+        "x_h": "1",
+        "l_h": "0",
+        "a_h": "2",
+        "e_s": "2",
+        "p_s": "2",
+        "x_s": "1",
+        "l_s": "1",
+        "a_s": "3",
+        "e_t": "1",
+        "p_t": "1",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "2",
+        "e_i": "2",
+        "p_i": "2",
+        "x_i": "2",
+        "l_i": "1",
+        "a_i": "3"
+      },
+      "obtained": {
+        "id": "easi",
+        "main": [
+          "12,7",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 12.7
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.easi",
+          "expected": 12.7,
+          "obtained": 12.7,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.easi",
+          "expected": 12.7,
+          "obtained": 12.7,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "12,7",
+          "obtained": "12,7",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "de 72",
+          "obtained": "de 72",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+      "input": {
+        "idade": "8",
+        "e_h": "3",
+        "p_h": "3",
+        "x_h": "3",
+        "l_h": "3",
+        "a_h": "6",
+        "e_s": "3",
+        "p_s": "3",
+        "x_s": "3",
+        "l_s": "3",
+        "a_s": "6",
+        "e_t": "3",
+        "p_t": "3",
+        "x_t": "3",
+        "l_t": "3",
+        "a_t": "6",
+        "e_i": "3",
+        "p_i": "3",
+        "x_i": "3",
+        "l_i": "3",
+        "a_i": "6"
+      },
+      "obtained": {
+        "id": "easi",
+        "main": [
+          "72,0",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 72
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.easi",
+          "expected": 72,
+          "obtained": 72,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.easi",
+          "expected": 72,
+          "obtained": 72,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "72,0",
+          "obtained": "72,0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "de 72",
+          "obtained": "de 72",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+      "input": {
+        "idade": "8",
+        "e_h": "1",
+        "a_h": "1",
+        "p_h": "0",
+        "x_h": "0",
+        "l_h": "0",
+        "e_s": "0",
+        "p_s": "0",
+        "x_s": "0",
+        "l_s": "0",
+        "a_s": "0",
+        "e_t": "0",
+        "p_t": "0",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "0",
+        "e_i": "0",
+        "p_i": "0",
+        "x_i": "0",
+        "l_i": "0",
+        "a_i": "0"
+      },
+      "obtained": {
+        "id": "easi",
+        "main": [
+          "0,1",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 0.1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.easi",
+          "expected": 0.1,
+          "obtained": 0.1,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.easi",
+          "expected": 0.1,
+          "obtained": 0.1,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "0,1",
+          "obtained": "0,1",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "de 72",
+          "obtained": "de 72",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 67,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

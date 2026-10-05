@@ -5,6 +5,7 @@
     "short": "Sinais e extensão da dermatite atópica",
     "desc": "Calcule o EASI da dermatite atópica por região (eritema, pápulas, escoriação, liquenificação e área), com pesos para crianças e as faixas de gravidade.",
     "lead": "Mede a gravidade dos sinais da dermatite atópica em quatro regiões, com pesos diferentes para crianças de até 7 anos. Instrumento recomendado pela iniciativa HOME.",
+    "kind": "Calculadora",
     "spec": [
       "dermatologia",
       "alergia-e-imunologia",
@@ -31,8 +32,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -44,8 +55,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -57,8 +78,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -70,8 +101,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -99,8 +140,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -112,8 +163,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -125,8 +186,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -138,8 +209,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -167,8 +248,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -180,8 +271,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -193,8 +294,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -206,8 +317,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -235,8 +356,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -248,8 +379,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -261,8 +402,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -274,8 +425,18 @@
             "0": "0",
             "1": "1",
             "2": "2",
-            "3": "3"
-          }
+            "3": "3",
+            "1.5": "1,5",
+            "2.5": "2,5"
+          },
+          "optionOrder": [
+            "0",
+            "1",
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ]
         }
       ],
       [
@@ -295,43 +456,7 @@
         }
       ]
     ],
-    "formula": "<p>Em cada região: (eritema + edema/papulação + escoriação + liquenificação, cada um de 0 a 3) × área (0 a 6) × peso. Pesos a partir de 8 anos: cabeça 0,1; membros superiores 0,2; tronco 0,3; membros inferiores 0,4. De 0 a 7 anos: 0,2; 0,2; 0,3; 0,3. EASI de 0 a 72.</p>",
-    "table": [
-      [
-        "EASI",
-        "Gravidade (Leshem 2015)"
-      ],
-      [
-        "0",
-        "Limpa"
-      ],
-      [
-        "0,1 a 1,0",
-        "Quase limpa"
-      ],
-      [
-        "1,1 a 7,0",
-        "Leve"
-      ],
-      [
-        "7,1 a 21,0",
-        "Moderada"
-      ],
-      [
-        "21,1 a 50,0",
-        "Grave"
-      ],
-      [
-        "50,1 a 72,0",
-        "Muito grave"
-      ]
-    ],
-    "tips": [
-      "Pontue a intensidade <strong>média</strong> de cada região; meios pontos são permitidos no instrumento original, mas esta calculadora usa números inteiros.",
-      "O EASI não inclui xerose nem sintomas: complemente com prurido e sono (ou o SCORAD).",
-      "Nos ensaios de imunobiológicos e inibidores de JAK, o desfecho usual é EASI 75 (melhora de 75% em relação ao basal).",
-      "A área é a porcentagem da região acometida, não do corpo inteiro."
-    ],
+    "formula": "<p>Em cada região: (eritema + edema/papulação + escoriação + liquenificação) × área (0 a 6) × peso. A intensidade média regional de cada sinal admite 0, 1, 1,5, 2, 2,5 ou 3; 0,5 não é permitido. Pesos a partir de 8 anos: cabeça 0,1; membros superiores 0,2; tronco 0,3; membros inferiores 0,4. Abaixo de 8 anos: 0,2; 0,2; 0,3; 0,3. EASI de 0 a 72.</p>",
     "sources": [
       [
         "Hanifin JM et al. The eczema area and severity index (EASI): assessment of reliability in atopic dermatitis. Exp Dermatol, 2001.",
@@ -340,6 +465,10 @@
       [
         "Leshem YA et al. What the Eczema Area and Severity Index score tells us about the severity of atopic dermatitis: an interpretability study. Br J Dermatol, 2015.",
         "https://doi.org/10.1111/bjd.13662"
+      ],
+      [
+        "HOME. EASI guidance, internal header “EASI guidance December14”; official user guide, pages 1, 5 and 6.",
+        "https://www.homeforeczema.org/documents/easi-user-guide-dec-2016-v2.pdf"
       ]
     ],
     "cases": [
@@ -456,9 +585,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -467,17 +593,1285 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T19:12:35.939Z",
+      "total": 15324,
+      "passed": 15324,
+      "sourceRowCount": 15324,
+      "uniqueApiInputCount": 15324,
+      "sourceContextCount": 15324,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "2174ce1ab4208f1729ad2a3aed0491365b9ad12dcec4d36f40f2ac54bbc326e2",
+        "total": 15324,
+        "bankRowCount": 15324,
+        "uniqueApiInputCount": 15324,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/dermatology-fraction-independent-verify-final27.json",
+            "sha256": "73cb5acaa2de2f11b9506171155e927e69e24507f8436975c69077cbc02673d3"
+          },
+          {
+            "file": "reports/review-20261003/dermatology-three-independent-expectations-final27.json",
+            "sha256": "f510a385c0d3abf34a3df08c449e9c932d2dc5fbc9a9cd1dddf2dddb6ec1af74"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/easi-pasi-total-source-banks-execution-final27.json",
+          "sha256": "f403fd657b53637a6efb5b96c13ef9b8097f25ddf2fd9b991ae222346b89e915"
+        },
+        "packagingRequirement": "Require sibling EASI engine application exact9ca4…ead23 before fresh packaging; this bank is not executable against frozen source26 engine."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "sourceRows": 15324,
+        "uniqueApiInputs": 15324,
+        "duplicateRows": 0
+      },
+      "scope": "Only raw.easi total from selected preassigned regional values. No main display/category/response/rubric observation approved.",
+      "sources": [
+        {
+          "file": "easi-home-guidance-final27.pdf",
+          "sha256": "c39f008c49e5402dd748c3bce49b7703e85067f6775c06b23195288467bf3333",
+          "url": "https://www.homeforeczema.org/documents/easi-user-guide-dec-2016-v2.pdf",
+          "edition": "HOME EASI guidance header December14, official PDF filename2016-v2; no year inferred as new instrument edition.",
+          "readScope": "Source and own peer identify official pages1/5/6 actually read; halfsteps1.5/2.5 permitted, not0.5. Weighted total of already assigned intensity/area values only.",
+          "excluded": [
+            "No intensity/extent observation, pediatric body-map/clinical diagnosis, category or response threshold approval.",
+            "Source integer regional values and halfstep average values are selected mathematically; combinations are not an exhaustive clinical assessment.",
+            "Old integer presentation is retained, halfstep display is the explicitly documented technical two-decimal policy, not source clinical rounding approval."
+          ],
+          "previousDeclaredMethodVersion": "EASI/Hanifin 2001:4 regiões,4 sinais, área 0–6; pesos<8 anos/adulto; total 0–72",
+          "plannedMethodVersion": "EASI/Hanifin 2001 + guia oficial HOME (cabeçalho “EASI guidance December14”): 4 regiões e 4 sinais; médias regionais admitem 1,5 e 2,5, mas não 0,5; pesos <8 / ≥8 anos; total 0–72",
+          "siblingSourceCandidate": {
+            "file": "easi-home-halfsteps-candidate-final27-r4-r2.json",
+            "sha256": "918f13f40f174b6c1410f79d38306e6e3d01869d2d385e86af975283d893418e"
+          }
+        }
+      ],
+      "independentPeer": {
+        "status": "passed",
+        "scope": "Own Fraction totals for this method frozen before imports; original R3 source/Node/Chromium proof retained and R4-R2 bounded HTML/reversal correction, not a false claim of full reexecution by R4. Numeric bank/metadata packaging requires separate peer.",
+        "peer": {
+          "file": "reports/review-20261003/easi-halfsteps-independent-review-verify-final27-r4-r2.json",
+          "sha256": "59cc924186a6cc0d9008fe1fc6ba44d5cfce826eb4225ef6fbe06aaa10362b76"
+        },
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "rightsApproval": "not-performed"
+      },
+      "metadataPackagingPeer": {
+        "status": "passed",
+        "scope": "Bounded independent review of the original source bank and its metadata/helper. Prospective code rebinding is separately re-executed below and requires the final composition peer; no human approval inferred.",
+        "peer": {
+          "file": "reports/review-20261003/easi-pasi-bank-packaging-independent-review-root-final27.json",
+          "sha256": "b13809fa223dd7a71b89e8c3dfb396efc120c03b9ad9bbd1c50b6fb22b60e1b7"
+        },
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "actualAdapterExecutions": 45972,
+      "actualVmExecutions": 45972,
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/easi/calculator.js",
+          "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+          "actualReplayFile": "reports/review-20261003/easi-home-halfsteps-stage-final27-r4-r2/apps/website/private/tool-code/easi/calculator.js",
+          "currentSourceSha256": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa",
+          "pendingSiblingEngineApplication": true
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/easi/calculator.js",
+          "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+          "actualReplayFile": "reports/review-20261003/easi-home-halfsteps-stage-final27-r4-r2/apps/dashboard/private/tool-code/easi/calculator.js",
+          "currentSourceSha256": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa",
+          "pendingSiblingEngineApplication": true
+        },
+        {
+          "file": "apps/command-center/private/tool-code/easi/calculator.js",
+          "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+          "actualReplayFile": "reports/review-20261003/easi-home-halfsteps-stage-final27-r4-r2/apps/command-center/private/tool-code/easi/calculator.js",
+          "currentSourceSha256": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa",
+          "pendingSiblingEngineApplication": true
+        }
+      ],
+      "qualifications": [
+        "No intensity/extent observation, pediatric body-map/clinical diagnosis, category or response threshold approval.",
+        "Source integer regional values and halfstep average values are selected mathematically; combinations are not an exhaustive clinical assessment.",
+        "Old integer presentation is retained, halfstep display is the explicitly documented technical two-decimal policy, not source clinical rounding approval."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "evidencePath": "reports/review-20261003/easi-pasi-total-source-banks-execution-final27.json",
+      "evidenceSha256": "f403fd657b53637a6efb5b96c13ef9b8097f25ddf2fd9b991ae222346b89e915",
+      "prospectiveSource27Bindings": [
+        {
+          "file": "apps/website/private/tool-code/easi/calculator.js",
+          "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/easi/calculator.js",
+          "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/easi/calculator.js",
+          "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
+        }
+      ],
+      "prospectiveSource27Replay": {
+        "file": "reports/review-20261003/source27-complete-bank-current-replay-root-r3.json",
+        "sha256": "44c601f27d3d5051a8d55a581381112b58df36c7c4b6cfd24ce1249b263d6a2b"
+      },
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "EASI/Hanifin 2001 + guia oficial HOME (cabeçalho “EASI guidance December14”): 4 regiões e 4 sinais; médias regionais admitem 1,5 e 2,5, mas não 0,5; pesos <8 / ≥8 anos; total 0–72",
+    "implementationVersion": "easi@native-2026-10-03+9ca4e4a1b036",
+    "currentMethodSource": "https://www.homeforeczema.org/documents/easi-user-guide-dec-2016-v2.pdf",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Em cada região: (eritema + edema/papulação + escoriação + liquenificação) × área (0 a 6) × peso. A intensidade média regional de cada sinal admite 0, 1, 1,5, 2, 2,5 ou 3; 0,5 não é permitido. Pesos a partir de 8 anos: cabeça 0,1; membros superiores 0,2; tronco 0,3; membros inferiores 0,4. Abaixo de 8 anos: 0,2; 0,2; 0,3; 0,3. EASI de 0 a 72.",
+      "inputContract": {
+        "fields": [
+          [
+            "idade",
+            "Idade",
+            "radio",
+            {
+              "opts": {
+                "0": "0 a 7 anos",
+                "8": "8 anos ou mais"
+              }
+            }
+          ],
+          [
+            "e_h",
+            "Cabeça e pescoço: eritema",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "p_h",
+            "Cabeça e pescoço: edema/papulação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "x_h",
+            "Cabeça e pescoço: escoriação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "l_h",
+            "Cabeça e pescoço: liquenificação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "a_h",
+            "Cabeça e pescoço: área acometida da região",
+            "sel",
+            {
+              "opts": {
+                "0": "0 · sem lesão",
+                "1": "1 · 1 a 9%",
+                "2": "2 · 10 a 29%",
+                "3": "3 · 30 a 49%",
+                "4": "4 · 50 a 69%",
+                "5": "5 · 70 a 89%",
+                "6": "6 · 90 a 100%"
+              }
+            }
+          ],
+          [
+            "e_s",
+            "Membros superiores: eritema",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "p_s",
+            "Membros superiores: edema/papulação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "x_s",
+            "Membros superiores: escoriação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "l_s",
+            "Membros superiores: liquenificação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "a_s",
+            "Membros superiores: área acometida da região",
+            "sel",
+            {
+              "opts": {
+                "0": "0 · sem lesão",
+                "1": "1 · 1 a 9%",
+                "2": "2 · 10 a 29%",
+                "3": "3 · 30 a 49%",
+                "4": "4 · 50 a 69%",
+                "5": "5 · 70 a 89%",
+                "6": "6 · 90 a 100%"
+              }
+            }
+          ],
+          [
+            "e_t",
+            "Tronco: eritema",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "p_t",
+            "Tronco: edema/papulação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "x_t",
+            "Tronco: escoriação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "l_t",
+            "Tronco: liquenificação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "a_t",
+            "Tronco: área acometida da região",
+            "sel",
+            {
+              "opts": {
+                "0": "0 · sem lesão",
+                "1": "1 · 1 a 9%",
+                "2": "2 · 10 a 29%",
+                "3": "3 · 30 a 49%",
+                "4": "4 · 50 a 69%",
+                "5": "5 · 70 a 89%",
+                "6": "6 · 90 a 100%"
+              }
+            }
+          ],
+          [
+            "e_i",
+            "Membros inferiores: eritema",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "p_i",
+            "Membros inferiores: edema/papulação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "x_i",
+            "Membros inferiores: escoriação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "l_i",
+            "Membros inferiores: liquenificação",
+            "radio",
+            {
+              "opts": {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "1.5": "1,5",
+                "2.5": "2,5"
+              },
+              "optionOrder": [
+                "0",
+                "1",
+                "1.5",
+                "2",
+                "2.5",
+                "3"
+              ]
+            }
+          ],
+          [
+            "a_i",
+            "Membros inferiores: área acometida da região",
+            "sel",
+            {
+              "opts": {
+                "0": "0 · sem lesão",
+                "1": "1 · 1 a 9%",
+                "2": "2 · 10 a 29%",
+                "3": "3 · 30 a 49%",
+                "4": "4 · 50 a 69%",
+                "5": "5 · 70 a 89%",
+                "6": "6 · 90 a 100%"
+              }
+            }
+          ]
+        ],
+        "hash": "43e2709496be4ece92143f01a5d379233d4b93abbfe69428768fd07db04e897d"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Hanifin JM et al. The eczema area and severity index (EASI): assessment of reliability in atopic dermatitis. Exp Dermatol, 2001.",
+          "url": "https://doi.org/10.1034/j.1600-0625.2001.100102.x",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The eczema area and severity index (EASI): assessment of reliability in atopic dermatitis. EASI Evaluator Group.",
+            "year": "2001",
+            "firstPublicationDate": "2001-02-01",
+            "doi": "10.1034/j.1600-0625.2001.100102.x",
+            "pmid": "11168575",
+            "journal": "Experimental dermatology",
+            "authors": "Hanifin JM, Thurston M, Omoto M, Cherill R, Tofte SJ, Graeber M."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/11168575/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "e77f2f46569cd1ced55a837ceade74d068374c63df55e1335a311d07efee47e4",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Leshem YA et al. What the Eczema Area and Severity Index score tells us about the severity of atopic dermatitis: an interpretability study. Br J Dermatol, 2015.",
+          "url": "https://doi.org/10.1111/bjd.13662",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "What the Eczema Area and Severity Index score tells us about the severity of atopic dermatitis: an interpretability study.",
+            "year": "2015",
+            "firstPublicationDate": "2015-04-16",
+            "doi": "10.1111/bjd.13662",
+            "pmid": "25580670",
+            "journal": "The British journal of dermatology",
+            "authors": "Leshem YA, Hajar T, Hanifin JM, Simpson EL."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/25580670/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "1776179d3d33e697d1515d0bd9fb686a4cce308342a67cfb501d9ac0a623e82f",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "HOME. EASI guidance, internal header “EASI guidance December14”; official user guide, pages 1, 5 and 6.",
+          "url": "https://www.homeforeczema.org/documents/easi-user-guide-dec-2016-v2.pdf",
+          "class": "official-guidance-targeted-pages-directly-and-visually-read",
+          "fullTextSha256": "c39f008c49e5402dd748c3bce49b7703e85067f6775c06b23195288467bf3333",
+          "pagesRead": [
+            1,
+            5,
+            6
+          ],
+          "internalHeader": "EASI guidance December14",
+          "publicationDateNotInferredFromFilename": true,
+          "formulaConformance": "targeted weighted total and permitted intensity steps only; severity categories and all clinical instructions not reviewed"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T19:12:35.939Z",
+        "total": 15324,
+        "passed": 15324,
+        "sourceRowCount": 15324,
+        "uniqueApiInputCount": 15324,
+        "sourceContextCount": 15324,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "2174ce1ab4208f1729ad2a3aed0491365b9ad12dcec4d36f40f2ac54bbc326e2",
+          "total": 15324,
+          "bankRowCount": 15324,
+          "uniqueApiInputCount": 15324,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/dermatology-fraction-independent-verify-final27.json",
+              "sha256": "73cb5acaa2de2f11b9506171155e927e69e24507f8436975c69077cbc02673d3"
+            },
+            {
+              "file": "reports/review-20261003/dermatology-three-independent-expectations-final27.json",
+              "sha256": "f510a385c0d3abf34a3df08c449e9c932d2dc5fbc9a9cd1dddf2dddb6ec1af74"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/easi-pasi-total-source-banks-execution-final27.json",
+            "sha256": "f403fd657b53637a6efb5b96c13ef9b8097f25ddf2fd9b991ae222346b89e915"
+          },
+          "packagingRequirement": "Require sibling EASI engine application exact9ca4…ead23 before fresh packaging; this bank is not executable against frozen source26 engine."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "sourceRows": 15324,
+          "uniqueApiInputs": 15324,
+          "duplicateRows": 0
+        },
+        "scope": "Only raw.easi total from selected preassigned regional values. No main display/category/response/rubric observation approved.",
+        "sources": [
+          {
+            "file": "easi-home-guidance-final27.pdf",
+            "sha256": "c39f008c49e5402dd748c3bce49b7703e85067f6775c06b23195288467bf3333",
+            "url": "https://www.homeforeczema.org/documents/easi-user-guide-dec-2016-v2.pdf",
+            "edition": "HOME EASI guidance header December14, official PDF filename2016-v2; no year inferred as new instrument edition.",
+            "readScope": "Source and own peer identify official pages1/5/6 actually read; halfsteps1.5/2.5 permitted, not0.5. Weighted total of already assigned intensity/area values only.",
+            "excluded": [
+              "No intensity/extent observation, pediatric body-map/clinical diagnosis, category or response threshold approval.",
+              "Source integer regional values and halfstep average values are selected mathematically; combinations are not an exhaustive clinical assessment.",
+              "Old integer presentation is retained, halfstep display is the explicitly documented technical two-decimal policy, not source clinical rounding approval."
+            ],
+            "previousDeclaredMethodVersion": "EASI/Hanifin 2001:4 regiões,4 sinais, área 0–6; pesos<8 anos/adulto; total 0–72",
+            "plannedMethodVersion": "EASI/Hanifin 2001 + guia oficial HOME (cabeçalho “EASI guidance December14”): 4 regiões e 4 sinais; médias regionais admitem 1,5 e 2,5, mas não 0,5; pesos <8 / ≥8 anos; total 0–72",
+            "siblingSourceCandidate": {
+              "file": "easi-home-halfsteps-candidate-final27-r4-r2.json",
+              "sha256": "918f13f40f174b6c1410f79d38306e6e3d01869d2d385e86af975283d893418e"
+            }
+          }
+        ],
+        "independentPeer": {
+          "status": "passed",
+          "scope": "Own Fraction totals for this method frozen before imports; original R3 source/Node/Chromium proof retained and R4-R2 bounded HTML/reversal correction, not a false claim of full reexecution by R4. Numeric bank/metadata packaging requires separate peer.",
+          "peer": {
+            "file": "reports/review-20261003/easi-halfsteps-independent-review-verify-final27-r4-r2.json",
+            "sha256": "59cc924186a6cc0d9008fe1fc6ba44d5cfce826eb4225ef6fbe06aaa10362b76"
+          },
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "rightsApproval": "not-performed"
+        },
+        "metadataPackagingPeer": {
+          "status": "passed",
+          "scope": "Bounded independent review of the original source bank and its metadata/helper. Prospective code rebinding is separately re-executed below and requires the final composition peer; no human approval inferred.",
+          "peer": {
+            "file": "reports/review-20261003/easi-pasi-bank-packaging-independent-review-root-final27.json",
+            "sha256": "b13809fa223dd7a71b89e8c3dfb396efc120c03b9ad9bbd1c50b6fb22b60e1b7"
+          },
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "actualAdapterExecutions": 45972,
+        "actualVmExecutions": 45972,
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/easi/calculator.js",
+            "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+            "actualReplayFile": "reports/review-20261003/easi-home-halfsteps-stage-final27-r4-r2/apps/website/private/tool-code/easi/calculator.js",
+            "currentSourceSha256": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa",
+            "pendingSiblingEngineApplication": true
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/easi/calculator.js",
+            "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+            "actualReplayFile": "reports/review-20261003/easi-home-halfsteps-stage-final27-r4-r2/apps/dashboard/private/tool-code/easi/calculator.js",
+            "currentSourceSha256": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa",
+            "pendingSiblingEngineApplication": true
+          },
+          {
+            "file": "apps/command-center/private/tool-code/easi/calculator.js",
+            "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+            "actualReplayFile": "reports/review-20261003/easi-home-halfsteps-stage-final27-r4-r2/apps/command-center/private/tool-code/easi/calculator.js",
+            "currentSourceSha256": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa",
+            "pendingSiblingEngineApplication": true
+          }
+        ],
+        "qualifications": [
+          "No intensity/extent observation, pediatric body-map/clinical diagnosis, category or response threshold approval.",
+          "Source integer regional values and halfstep average values are selected mathematically; combinations are not an exhaustive clinical assessment.",
+          "Old integer presentation is retained, halfstep display is the explicitly documented technical two-decimal policy, not source clinical rounding approval."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "evidencePath": "reports/review-20261003/easi-pasi-total-source-banks-execution-final27.json",
+        "evidenceSha256": "f403fd657b53637a6efb5b96c13ef9b8097f25ddf2fd9b991ae222346b89e915",
+        "prospectiveSource27Bindings": [
+          {
+            "file": "apps/website/private/tool-code/easi/calculator.js",
+            "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/easi/calculator.js",
+            "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/easi/calculator.js",
+            "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
+          }
+        ],
+        "prospectiveSource27Replay": {
+          "file": "reports/review-20261003/source27-complete-bank-current-replay-root-r3.json",
+          "sha256": "44c601f27d3d5051a8d55a581381112b58df36c7c4b6cfd24ce1249b263d6a2b"
+        },
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+      "previousImplementationHash": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa",
+      "previousInputContract": {
+        "fields": [
+          {
+            "key": "idade",
+            "label": "Idade",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0 a 7 anos",
+              "8": "8 anos ou mais"
+            }
+          },
+          {
+            "key": "e_h",
+            "label": "Cabeça e pescoço: eritema",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "p_h",
+            "label": "Cabeça e pescoço: edema/papulação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "x_h",
+            "label": "Cabeça e pescoço: escoriação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "l_h",
+            "label": "Cabeça e pescoço: liquenificação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "a_h",
+            "label": "Cabeça e pescoço: área acometida da região",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "0 · sem lesão",
+              "1": "1 · 1 a 9%",
+              "2": "2 · 10 a 29%",
+              "3": "3 · 30 a 49%",
+              "4": "4 · 50 a 69%",
+              "5": "5 · 70 a 89%",
+              "6": "6 · 90 a 100%"
+            }
+          },
+          {
+            "key": "e_s",
+            "label": "Membros superiores: eritema",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "p_s",
+            "label": "Membros superiores: edema/papulação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "x_s",
+            "label": "Membros superiores: escoriação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "l_s",
+            "label": "Membros superiores: liquenificação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "a_s",
+            "label": "Membros superiores: área acometida da região",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "0 · sem lesão",
+              "1": "1 · 1 a 9%",
+              "2": "2 · 10 a 29%",
+              "3": "3 · 30 a 49%",
+              "4": "4 · 50 a 69%",
+              "5": "5 · 70 a 89%",
+              "6": "6 · 90 a 100%"
+            }
+          },
+          {
+            "key": "e_t",
+            "label": "Tronco: eritema",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "p_t",
+            "label": "Tronco: edema/papulação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "x_t",
+            "label": "Tronco: escoriação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "l_t",
+            "label": "Tronco: liquenificação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "a_t",
+            "label": "Tronco: área acometida da região",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "0 · sem lesão",
+              "1": "1 · 1 a 9%",
+              "2": "2 · 10 a 29%",
+              "3": "3 · 30 a 49%",
+              "4": "4 · 50 a 69%",
+              "5": "5 · 70 a 89%",
+              "6": "6 · 90 a 100%"
+            }
+          },
+          {
+            "key": "e_i",
+            "label": "Membros inferiores: eritema",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "p_i",
+            "label": "Membros inferiores: edema/papulação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "x_i",
+            "label": "Membros inferiores: escoriação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "l_i",
+            "label": "Membros inferiores: liquenificação",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "1.5": "1,5",
+              "2.5": "2,5"
+            },
+            "optionOrder": [
+              "0",
+              "1",
+              "1.5",
+              "2",
+              "2.5",
+              "3"
+            ]
+          },
+          {
+            "key": "a_i",
+            "label": "Membros inferiores: área acometida da região",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "0": "0 · sem lesão",
+              "1": "1 · 1 a 9%",
+              "2": "2 · 10 a 29%",
+              "3": "3 · 30 a 49%",
+              "4": "4 · 50 a 69%",
+              "5": "5 · 70 a 89%",
+              "6": "6 · 90 a 100%"
+            }
+          }
+        ],
+        "hash": "b01641b6c3f8af722f6aecf2f95c72c4b68be6c675b7864c483e4bbca8ef1316"
+      },
+      "technicalAmendment": {
+        "receipt": "reports/review-20261003/easi-home-halfsteps-candidate-final27-r2.json",
+        "scope": "Add official regional-average half steps 1.5 and2.5, never0.5; exact integer weighted numerator/20; old integer output preserved; no category or approval certification.",
+        "previousImplementationHash": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa"
+      }
+    },
+    "limits": "O estudo EASI de 2001 avaliou confiabilidade entre dermatologistas treinados em pessoas com dermatite atópica, em grupos <8 e ≥8 anos. A versão usada deve empregar os pesos de idade correspondentes e avaliação adequada dos sinais. A confiabilidade do instrumento não constitui validação diagnóstica nem aprovação linguística das traduções locais. O guia oficial HOME orienta avaliar a intensidade média de cada sinal na região inteira: permite 1,5 e 2,5, mas não 0,5, pois qualquer sinal presente deve valer pelo menos 1. A avaliação abrange apenas eczema inflamatório; xerose, ictiose, queratose pilar, urticária, infecção sem eczema subjacente e alterações pigmentares pós-inflamatórias não entram no escore. A conferência técnica aqui cobre a soma ponderada, incluindo os meios pontos permitidos, e não aprova os cortes de gravidade, decisões clínicas, traduções oficiais ou direitos do instrumento.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.812Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Pesos corporais por idade, itens, cortes de gravidade e uso para diagnóstico não constam do resumo. Confiabilidade entre avaliadores não comprova todas as traduções autorais."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "homeGuidanceAmendment": {
+        "receipt": "reports/review-20261003/easi-home-halfsteps-candidate-final27-r2.json",
+        "source": {
+          "url": "https://www.homeforeczema.org/documents/easi-user-guide-dec-2016-v2.pdf",
+          "sha256": "c39f008c49e5402dd748c3bce49b7703e85067f6775c06b23195288467bf3333",
+          "readScope": "Official HOME guidance pages 1,5,6 read directly and visually; internal header December14 retained. Not a full clinical conformity, severity threshold, licensing or official translation review."
+        },
+        "sourceFormulaScope": "Weighted total, allowed regional-average intensity steps and age weights; severity cutoffs, diagnosis and instrument rights not approved.",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "rightsApproval": "not-performed"
+      }
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/easi/calculator.js",
+    "bytes": 8306,
+    "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "f38f1ea8efb71a913ec677e5d1de42bebd1f4c3c2eb5e627d5f65bdbcde959e7",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "c87af8d9e5bff278fe6e0bbe28e30b6a9151a2880d00c8d93cd5fa1946c653f0",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "c87af8d9e5bff278fe6e0bbe28e30b6a9151a2880d00c8d93cd5fa1946c653f0",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
