@@ -1,0 +1,1104 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "easi",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/easi/calculator.js",
+    "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+    "bytes": 8306
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 4,
+    "replayed": 4,
+    "passed": 4,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "easi",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+      "originalInput": {
+        "idade": "8",
+        "e_h": "2",
+        "p_h": "1",
+        "x_h": "1",
+        "l_h": "0",
+        "a_h": "2",
+        "e_s": "2",
+        "p_s": "2",
+        "x_s": "1",
+        "l_s": "1",
+        "a_s": "3",
+        "e_t": "1",
+        "p_t": "1",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "2",
+        "e_i": "2",
+        "p_i": "2",
+        "x_i": "2",
+        "l_i": "1",
+        "a_i": "3"
+      },
+      "input": {
+        "idade": "8",
+        "e_h": "2",
+        "p_h": "1",
+        "x_h": "1",
+        "l_h": "0",
+        "a_h": "2",
+        "e_s": "2",
+        "p_s": "2",
+        "x_s": "1",
+        "l_s": "1",
+        "a_s": "3",
+        "e_t": "1",
+        "p_t": "1",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "2",
+        "e_i": "2",
+        "p_i": "2",
+        "x_i": "2",
+        "l_i": "1",
+        "a_i": "3"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "easi": 14
+        },
+        "level": "mid"
+      },
+      "recordedResult": {
+        "main": [
+          "14,0",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 14
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": "8",
+            "e_h": "2",
+            "p_h": "1",
+            "x_h": "1",
+            "l_h": "0",
+            "a_h": "2",
+            "e_s": "2",
+            "p_s": "2",
+            "x_s": "1",
+            "l_s": "1",
+            "a_s": "3",
+            "e_t": "1",
+            "p_t": "1",
+            "x_t": "0",
+            "l_t": "0",
+            "a_t": "2",
+            "e_i": "2",
+            "p_i": "2",
+            "x_i": "2",
+            "l_i": "1",
+            "a_i": "3"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+          "startedAt": "2026-10-05T17:36:48.651Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "easi",
+              "main": [
+                "14,0",
+                "de 72"
+              ],
+              "label": "EASI",
+              "raw": {
+                "easi": 14
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "0de3d24bba10082e005946f0424d2329d29c117262501ba39f77838635b0371a",
+          "bytes": 118,
+          "elapsedMs": 8.168299999990268
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+        "startedAt": "2026-10-05T17:36:48.651Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "easi",
+            "main": [
+              "14,0",
+              "de 72"
+            ],
+            "label": "EASI",
+            "raw": {
+              "easi": 14
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "0de3d24bba10082e005946f0424d2329d29c117262501ba39f77838635b0371a",
+        "bytes": 118,
+        "elapsedMs": 8.168299999990268
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.easi",
+            "expected": 14,
+            "obtained": 14,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.easi",
+            "expected": 14,
+            "obtained": 14,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "14,0",
+            "obtained": "14,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 72",
+            "obtained": "de 72",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "easi",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+      "originalInput": {
+        "idade": "0",
+        "e_h": "2",
+        "p_h": "1",
+        "x_h": "1",
+        "l_h": "0",
+        "a_h": "2",
+        "e_s": "2",
+        "p_s": "2",
+        "x_s": "1",
+        "l_s": "1",
+        "a_s": "3",
+        "e_t": "1",
+        "p_t": "1",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "2",
+        "e_i": "2",
+        "p_i": "2",
+        "x_i": "2",
+        "l_i": "1",
+        "a_i": "3"
+      },
+      "input": {
+        "idade": "0",
+        "e_h": "2",
+        "p_h": "1",
+        "x_h": "1",
+        "l_h": "0",
+        "a_h": "2",
+        "e_s": "2",
+        "p_s": "2",
+        "x_s": "1",
+        "l_s": "1",
+        "a_s": "3",
+        "e_t": "1",
+        "p_t": "1",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "2",
+        "e_i": "2",
+        "p_i": "2",
+        "x_i": "2",
+        "l_i": "1",
+        "a_i": "3"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "easi": 12.7
+        },
+        "level": "mid"
+      },
+      "recordedResult": {
+        "main": [
+          "12,7",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 12.7
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": "0",
+            "e_h": "2",
+            "p_h": "1",
+            "x_h": "1",
+            "l_h": "0",
+            "a_h": "2",
+            "e_s": "2",
+            "p_s": "2",
+            "x_s": "1",
+            "l_s": "1",
+            "a_s": "3",
+            "e_t": "1",
+            "p_t": "1",
+            "x_t": "0",
+            "l_t": "0",
+            "a_t": "2",
+            "e_i": "2",
+            "p_i": "2",
+            "x_i": "2",
+            "l_i": "1",
+            "a_i": "3"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+          "startedAt": "2026-10-05T17:36:48.964Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "easi",
+              "main": [
+                "12,7",
+                "de 72"
+              ],
+              "label": "EASI",
+              "raw": {
+                "easi": 12.7
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "c80289e47e90bce07a7304046a9949a475ecbf88416ff7d8d59cb663001366eb",
+          "bytes": 120,
+          "elapsedMs": 4.723199999993085
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+        "startedAt": "2026-10-05T17:36:48.964Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "easi",
+            "main": [
+              "12,7",
+              "de 72"
+            ],
+            "label": "EASI",
+            "raw": {
+              "easi": 12.7
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "c80289e47e90bce07a7304046a9949a475ecbf88416ff7d8d59cb663001366eb",
+        "bytes": 120,
+        "elapsedMs": 4.723199999993085
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.easi",
+            "expected": 12.7,
+            "obtained": 12.7,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.easi",
+            "expected": 12.7,
+            "obtained": 12.7,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "12,7",
+            "obtained": "12,7",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 72",
+            "obtained": "de 72",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "easi",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+      "originalInput": {
+        "idade": "8",
+        "e_h": "3",
+        "p_h": "3",
+        "x_h": "3",
+        "l_h": "3",
+        "a_h": "6",
+        "e_s": "3",
+        "p_s": "3",
+        "x_s": "3",
+        "l_s": "3",
+        "a_s": "6",
+        "e_t": "3",
+        "p_t": "3",
+        "x_t": "3",
+        "l_t": "3",
+        "a_t": "6",
+        "e_i": "3",
+        "p_i": "3",
+        "x_i": "3",
+        "l_i": "3",
+        "a_i": "6"
+      },
+      "input": {
+        "idade": "8",
+        "e_h": "3",
+        "p_h": "3",
+        "x_h": "3",
+        "l_h": "3",
+        "a_h": "6",
+        "e_s": "3",
+        "p_s": "3",
+        "x_s": "3",
+        "l_s": "3",
+        "a_s": "6",
+        "e_t": "3",
+        "p_t": "3",
+        "x_t": "3",
+        "l_t": "3",
+        "a_t": "6",
+        "e_i": "3",
+        "p_i": "3",
+        "x_i": "3",
+        "l_i": "3",
+        "a_i": "6"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "easi": 72
+        },
+        "level": "high",
+        "verdict": "muito grave"
+      },
+      "recordedResult": {
+        "main": [
+          "72,0",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 72
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": "8",
+            "e_h": "3",
+            "p_h": "3",
+            "x_h": "3",
+            "l_h": "3",
+            "a_h": "6",
+            "e_s": "3",
+            "p_s": "3",
+            "x_s": "3",
+            "l_s": "3",
+            "a_s": "6",
+            "e_t": "3",
+            "p_t": "3",
+            "x_t": "3",
+            "l_t": "3",
+            "a_t": "6",
+            "e_i": "3",
+            "p_i": "3",
+            "x_i": "3",
+            "l_i": "3",
+            "a_i": "6"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+          "startedAt": "2026-10-05T17:36:49.273Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "easi",
+              "main": [
+                "72,0",
+                "de 72"
+              ],
+              "label": "EASI",
+              "raw": {
+                "easi": 72
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "c7caa26149f1413fce29b5ee01aa1e92ba3b1a1470049968aeb0b9d5e9a62489",
+          "bytes": 118,
+          "elapsedMs": 4.122799999997369
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+        "startedAt": "2026-10-05T17:36:49.273Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "easi",
+            "main": [
+              "72,0",
+              "de 72"
+            ],
+            "label": "EASI",
+            "raw": {
+              "easi": 72
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "c7caa26149f1413fce29b5ee01aa1e92ba3b1a1470049968aeb0b9d5e9a62489",
+        "bytes": 118,
+        "elapsedMs": 4.122799999997369
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.easi",
+            "expected": 72,
+            "obtained": 72,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.easi",
+            "expected": 72,
+            "obtained": 72,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "72,0",
+            "obtained": "72,0",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 72",
+            "obtained": "de 72",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "easi",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+      "originalInput": {
+        "idade": "8",
+        "e_h": "1",
+        "a_h": "1"
+      },
+      "input": {
+        "idade": "8",
+        "e_h": "1",
+        "a_h": "1",
+        "p_h": "0",
+        "x_h": "0",
+        "l_h": "0",
+        "e_s": "0",
+        "p_s": "0",
+        "x_s": "0",
+        "l_s": "0",
+        "a_s": "0",
+        "e_t": "0",
+        "p_t": "0",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "0",
+        "e_i": "0",
+        "p_i": "0",
+        "x_i": "0",
+        "l_i": "0",
+        "a_i": "0"
+      },
+      "amendments": [
+        {
+          "field": "p_h",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "x_h",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "l_h",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "e_s",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "p_s",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "x_s",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "l_s",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "a_s",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "e_t",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "p_t",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "x_t",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "l_t",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "a_t",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "e_i",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "p_i",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "x_i",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "l_i",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        },
+        {
+          "field": "a_i",
+          "kind": "recorded-implicit-zero-materialized",
+          "value": "0"
+        }
+      ],
+      "expected": {
+        "raw": {
+          "easi": 0.1
+        },
+        "level": "low",
+        "verdict": "quase limpa"
+      },
+      "recordedResult": {
+        "main": [
+          "0,1",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 0.1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": "8",
+            "e_h": "1",
+            "a_h": "1",
+            "p_h": "0",
+            "x_h": "0",
+            "l_h": "0",
+            "e_s": "0",
+            "p_s": "0",
+            "x_s": "0",
+            "l_s": "0",
+            "a_s": "0",
+            "e_t": "0",
+            "p_t": "0",
+            "x_t": "0",
+            "l_t": "0",
+            "a_t": "0",
+            "e_i": "0",
+            "p_i": "0",
+            "x_i": "0",
+            "l_i": "0",
+            "a_i": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+          "startedAt": "2026-10-05T17:36:49.587Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "easi",
+              "main": [
+                "0,1",
+                "de 72"
+              ],
+              "label": "EASI",
+              "raw": {
+                "easi": 0.1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "cef5a0eab0802b64ff1967f16607790bc1cef4f0e02d84da3078ddb44e77e132",
+          "bytes": 118,
+          "elapsedMs": 5.720400000005611
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/easi/calculate",
+        "startedAt": "2026-10-05T17:36:49.587Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "easi",
+            "main": [
+              "0,1",
+              "de 72"
+            ],
+            "label": "EASI",
+            "raw": {
+              "easi": 0.1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "cef5a0eab0802b64ff1967f16607790bc1cef4f0e02d84da3078ddb44e77e132",
+        "bytes": 118,
+        "elapsedMs": 5.720400000005611
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.easi",
+            "expected": 0.1,
+            "obtained": 0.1,
+            "tolerance": 0.050000010000000004,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.easi",
+            "expected": 0.1,
+            "obtained": 0.1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "0,1",
+            "obtained": "0,1",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 72",
+            "obtained": "de 72",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
