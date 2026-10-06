@@ -286,3 +286,27 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Mäßige atopische Dermatitis (7,1 bis 21,0)
+
+
+### 2
+
+Mäßige atopische Dermatitis (7,1 bis 21,0)
+
+
+### 3
+
+Sehr schwere atopische Dermatitis (50,1 bis 72,0)
+
+
+### 4
+
+Nahezu abgeheilt (0,1 bis 1,0)
+

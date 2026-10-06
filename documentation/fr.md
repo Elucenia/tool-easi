@@ -286,3 +286,27 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Dermatite atopique modérée (7,1 à 21,0)
+
+
+### 2
+
+Dermatite atopique modérée (7,1 à 21,0)
+
+
+### 3
+
+Dermatite atopique très sévère (50,1 à 72,0)
+
+
+### 4
+
+Presque nette (0,1 à 1,0)
+

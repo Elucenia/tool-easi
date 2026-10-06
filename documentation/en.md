@@ -286,3 +286,27 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Moderate atopic dermatitis (7,1 to 21,0)
+
+
+### 2
+
+Moderate atopic dermatitis (7,1 to 21,0)
+
+
+### 3
+
+Very severe atopic dermatitis (50,1 to 72,0)
+
+
+### 4
+
+Nearly clear (0,1 to 1,0)
+

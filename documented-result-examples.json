@@ -1,0 +1,507 @@
+{
+  "id": "easi",
+  "implementationVersion": "easi@native-2026-10-05+e998b7bcfb78",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atópica moderada (7,1 a 21,0)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atópica moderada (7,1 a 21,0)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atópica muito grave (50,1 a 72,0)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Quase limpa (0,1 a 1,0)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate atopic dermatitis (7,1 to 21,0)",
+            "locale": "en",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate atopic dermatitis (7,1 to 21,0)",
+            "locale": "en",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Very severe atopic dermatitis (50,1 to 72,0)",
+            "locale": "en",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Nearly clear (0,1 to 1,0)",
+            "locale": "en",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatitis atópica moderada (7,1 a 21,0)",
+            "locale": "es",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatitis atópica moderada (7,1 a 21,0)",
+            "locale": "es",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatitis atópica muy grave (50,1 a 72,0)",
+            "locale": "es",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Casi limpia (0,1 a 1,0)",
+            "locale": "es",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atopique modérée (7,1 à 21,0)",
+            "locale": "fr",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atopique modérée (7,1 à 21,0)",
+            "locale": "fr",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atopique très sévère (50,1 à 72,0)",
+            "locale": "fr",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Presque nette (0,1 à 1,0)",
+            "locale": "fr",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßige atopische Dermatitis (7,1 bis 21,0)",
+            "locale": "de",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßige atopische Dermatitis (7,1 bis 21,0)",
+            "locale": "de",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Sehr schwere atopische Dermatitis (50,1 bis 72,0)",
+            "locale": "de",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Nahezu abgeheilt (0,1 bis 1,0)",
+            "locale": "de",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atopica moderata (7,1 a 21,0)",
+            "locale": "it",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atopica moderata (7,1 a 21,0)",
+            "locale": "it",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dermatite atopica molto grave (50,1 a 72,0)",
+            "locale": "it",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Quasi pulita (0,1 a 1,0)",
+            "locale": "it",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "التهاب الجلد التأتبي المتوسط (7,1 إلى 21,0)",
+            "locale": "ar",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "التهاب الجلد التأتبي المتوسط (7,1 إلى 21,0)",
+            "locale": "ar",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "التهاب الجلد التأتبي شديد جدًا (50,1 إلى 72,0)",
+            "locale": "ar",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "شبه صافية (0,1 إلى 1,0)",
+            "locale": "ar",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度特应性皮炎（7,1 至 21,0）",
+            "locale": "zh",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度特应性皮炎（7,1 至 21,0）",
+            "locale": "zh",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "极重度特应性皮炎（50,1 至 72,0）",
+            "locale": "zh",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "接近清除（0,1 至 1,0）",
+            "locale": "zh",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中等度のアトピー性皮膚炎（7,1 から 21,0）",
+            "locale": "ja",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中等度のアトピー性皮膚炎（7,1 から 21,0）",
+            "locale": "ja",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "非常に重度のアトピー性皮膚炎（50,1 から 72,0）",
+            "locale": "ja",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "ほぼ消失（0,1 から 1,0）",
+            "locale": "ja",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम ऐटोपिक डर्मेटाइटिस (7,1 से 21,0)",
+            "locale": "hi",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम ऐटोपिक डर्मेटाइटिस (7,1 से 21,0)",
+            "locale": "hi",
+            "template": "documented-authored-d00ed592f07d7e70c535"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "बहुत गंभीर ऐटोपिक डर्मेटाइटिस (50,1 से 72,0)",
+            "locale": "hi",
+            "template": "documented-authored-447ec5988d549e0dafe4"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "लगभग साफ़ (0,1 से 1,0)",
+            "locale": "hi",
+            "template": "documented-authored-88fa1715614b636c61a7"
+          },
+          "level": "low"
+        }
+      }
+    ]
+  }
+}

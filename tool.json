@@ -732,7 +732,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "EASI/Hanifin 2001 + guia oficial HOME (cabeçalho “EASI guidance December14”): 4 regiões e 4 sinais; médias regionais admitem 1,5 e 2,5, mas não 0,5; pesos <8 / ≥8 anos; total 0–72",
-    "implementationVersion": "easi@native-2026-10-03+9ca4e4a1b036",
+    "implementationVersion": "easi@native-2026-10-05+e998b7bcfb78",
     "currentMethodSource": "https://www.homeforeczema.org/documents/easi-user-guide-dec-2016-v2.pdf",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -1391,7 +1391,7 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+      "implementationHash": "e998b7bcfb782ba4d65c272fc48139e552d37c3bd440b39aa632acb09c45fe5c",
       "previousImplementationHash": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa",
       "previousInputContract": {
         "fields": [
@@ -1824,7 +1824,35 @@
         "receipt": "reports/review-20261003/easi-home-halfsteps-candidate-final27-r2.json",
         "scope": "Add official regional-average half steps 1.5 and2.5, never0.5; exact integer weighted numerator/20; old integer output preserved; no category or approval certification.",
         "previousImplementationHash": "40b15a2cb40f07b6c2361b6985d7826ed6d9ff98a80a31b253c7b36c3207a3fa"
-      }
+      },
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "easi@native-2026-10-03+9ca4e4a1b036",
+          "previousImplementationHash": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+          "implementationHash": "e998b7bcfb782ba4d65c272fc48139e552d37c3bd440b39aa632acb09c45fe5c",
+          "scientificBodySha256": "1e4d8deadf3ce323a68e680ee9776f35fc340380c194217e5df3e92f10cf6eae",
+          "metadataContractHash": "43e2709496be4ece92143f01a5d379233d4b93abbfe69428768fd07db04e897d",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O estudo EASI de 2001 avaliou confiabilidade entre dermatologistas treinados em pessoas com dermatite atópica, em grupos <8 e ≥8 anos. A versão usada deve empregar os pesos de idade correspondentes e avaliação adequada dos sinais. A confiabilidade do instrumento não constitui validação diagnóstica nem aprovação linguística das traduções locais. O guia oficial HOME orienta avaliar a intensidade média de cada sinal na região inteira: permite 1,5 e 2,5, mas não 0,5, pois qualquer sinal presente deve valer pelo menos 1. A avaliação abrange apenas eczema inflamatório; xerose, ictiose, queratose pilar, urticária, infecção sem eczema subjacente e alterações pigmentares pós-inflamatórias não entram no escore. A conferência técnica aqui cobre a soma ponderada, incluindo os meios pontos permitidos, e não aprova os cortes de gravidade, decisões clínicas, traduções oficiais ou direitos do instrumento.",
     "sourceLimitEvidence": {
@@ -1855,20 +1883,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/easi/calculator.js",
-    "bytes": 8306,
-    "sha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23"
+    "bytes": 8511,
+    "sha256": "e998b7bcfb782ba4d65c272fc48139e552d37c3bd440b39aa632acb09c45fe5c"
   },
-  "sourceToolSha256": "f38f1ea8efb71a913ec677e5d1de42bebd1f4c3c2eb5e627d5f65bdbcde959e7",
+  "sourceToolSha256": "2115615adc6c6ddf496e388b7e0061be7189fa1bf8e57d84d550e889350bd6ad",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "c87af8d9e5bff278fe6e0bbe28e30b6a9151a2880d00c8d93cd5fa1946c653f0",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "c87af8d9e5bff278fe6e0bbe28e30b6a9151a2880d00c8d93cd5fa1946c653f0",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

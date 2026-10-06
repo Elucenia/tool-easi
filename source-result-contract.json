@@ -1,0 +1,290 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "easi",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "988d3837fa22f90fe1a7e759e89cbb1350095dd5",
+    "oldEngineSha256": "9ca4e4a1b03651d651120f1c2779679610767a821c087d9d4db89043b4d0ea23",
+    "currentEngineSha256": "e998b7bcfb782ba4d65c272fc48139e552d37c3bd440b39aa632acb09c45fe5c"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Adulto: 0,8 + 3,6 + 1,2 + 8,4 = 14,0 (moderada)",
+      "input": {
+        "idade": "8",
+        "e_h": "2",
+        "p_h": "1",
+        "x_h": "1",
+        "l_h": "0",
+        "a_h": "2",
+        "e_s": "2",
+        "p_s": "2",
+        "x_s": "1",
+        "l_s": "1",
+        "a_s": "3",
+        "e_t": "1",
+        "p_t": "1",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "2",
+        "e_i": "2",
+        "p_i": "2",
+        "x_i": "2",
+        "l_i": "1",
+        "a_i": "3"
+      },
+      "publicOutput": {
+        "id": "easi",
+        "main": [
+          "14,0",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 14
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "easi": 14
+        },
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "14,0",
+          "de 72"
+        ],
+        "label": "EASI",
+        "level": "mid",
+        "verdict": "Dermatite atópica moderada (7,1 a 21,0)",
+        "raw": {
+          "easi": 14
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Mesmos achados em criança de 5 anos: 1,6 + 3,6 + 1,2 + 6,3 = 12,7",
+      "input": {
+        "idade": "0",
+        "e_h": "2",
+        "p_h": "1",
+        "x_h": "1",
+        "l_h": "0",
+        "a_h": "2",
+        "e_s": "2",
+        "p_s": "2",
+        "x_s": "1",
+        "l_s": "1",
+        "a_s": "3",
+        "e_t": "1",
+        "p_t": "1",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "2",
+        "e_i": "2",
+        "p_i": "2",
+        "x_i": "2",
+        "l_i": "1",
+        "a_i": "3"
+      },
+      "publicOutput": {
+        "id": "easi",
+        "main": [
+          "12,7",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 12.7
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "easi": 12.7
+        },
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "12,7",
+          "de 72"
+        ],
+        "label": "EASI",
+        "level": "mid",
+        "verdict": "Dermatite atópica moderada (7,1 a 21,0)",
+        "raw": {
+          "easi": 12.7
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Todos os sinais 3 e área 6: 72 (muito grave)",
+      "input": {
+        "idade": "8",
+        "e_h": "3",
+        "p_h": "3",
+        "x_h": "3",
+        "l_h": "3",
+        "a_h": "6",
+        "e_s": "3",
+        "p_s": "3",
+        "x_s": "3",
+        "l_s": "3",
+        "a_s": "6",
+        "e_t": "3",
+        "p_t": "3",
+        "x_t": "3",
+        "l_t": "3",
+        "a_t": "6",
+        "e_i": "3",
+        "p_i": "3",
+        "x_i": "3",
+        "l_i": "3",
+        "a_i": "6"
+      },
+      "publicOutput": {
+        "id": "easi",
+        "main": [
+          "72,0",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 72
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "easi": 72
+        },
+        "level": "high",
+        "verdict": "muito grave"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "72,0",
+          "de 72"
+        ],
+        "label": "EASI",
+        "level": "high",
+        "verdict": "Dermatite atópica muito grave (50,1 a 72,0)",
+        "raw": {
+          "easi": 72
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Só eritema 1 na face com área 1: 0,1 (quase limpa)",
+      "input": {
+        "idade": "8",
+        "e_h": "1",
+        "a_h": "1",
+        "p_h": "0",
+        "x_h": "0",
+        "l_h": "0",
+        "e_s": "0",
+        "p_s": "0",
+        "x_s": "0",
+        "l_s": "0",
+        "a_s": "0",
+        "e_t": "0",
+        "p_t": "0",
+        "x_t": "0",
+        "l_t": "0",
+        "a_t": "0",
+        "e_i": "0",
+        "p_i": "0",
+        "x_i": "0",
+        "l_i": "0",
+        "a_i": "0"
+      },
+      "publicOutput": {
+        "id": "easi",
+        "main": [
+          "0,1",
+          "de 72"
+        ],
+        "label": "EASI",
+        "raw": {
+          "easi": 0.1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "easi": 0.1
+        },
+        "level": "low",
+        "verdict": "quase limpa"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0,1",
+          "de 72"
+        ],
+        "label": "EASI",
+        "level": "low",
+        "verdict": "Quase limpa (0,1 a 1,0)",
+        "raw": {
+          "easi": 0.1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    }
+  ]
+}

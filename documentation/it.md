@@ -286,3 +286,27 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Dermatite atopica moderata (7,1 a 21,0)
+
+
+### 2
+
+Dermatite atopica moderata (7,1 a 21,0)
+
+
+### 3
+
+Dermatite atopica molto grave (50,1 a 72,0)
+
+
+### 4
+
+Quasi pulita (0,1 a 1,0)
+
